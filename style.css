@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2019/08/04/06/04/night-sky-4383117_1280.jpg);
+  
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-family:cursive;
+    margin-bottom: 20px;
+    color: #B8E1FF;
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .puzzle-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .puzzle-tile {
+    display: flex;
+    justify-content: center;
+    font-family: Cursive ;
+    align-items: center;
+    font-size: 24px;
+    width: 80px;
+    height: 80px;
+    background-color: #989FCE;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .empty-tile {
+    background-color:beige ;
+    cursor: default;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color:#92DCE5;
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-family: Allan;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color:#BFD5E2;
+  }
+  
+  #move-count {
+    padding: 10px 20px;
+    background-color:#92DCE5;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    color: black;
+  }
+
+#timer {
+  padding: 10px;
+    font-size: 18px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: #92DCE5;
+}
+
+#info{
+  background-color: #272838;
+   text-align: center;
+   color: #fff;
+}
+
+.logo1{
+  padding: 19px 1px 1px 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logo1:hover{
+  color: #989FCE;
+  background-color: #989FCE;
+}
+
+.logo2{
+  padding: 19px 1px 1px 1px;
+ 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logo2:hover{
+  color: #989FCE;
+  background-color: #989FCE;
+}
